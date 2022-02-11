@@ -7,7 +7,7 @@
 # name = input('What is your name? ')
 
 # print("Hello, " + name + "!")
-
+# print (f"Hello, {name.upper()}!")
 
 # 2. HELLO YOU!
 
@@ -16,8 +16,9 @@
 # name.upper()
 
 # print("HELLO, " + name.upper() + "!" )
+# print (f"HELLO {name.upper()}!")
 # print("YOUR NAME HAS " + str(len(name)) + " LETTERS IN IT! AWESOME!")
-
+# print (f"YOUR NAME HAS {len(name)} LETTERS IN IT! AWESOME!")
 
 # 3. Madlib
 
@@ -245,13 +246,23 @@
 
 # 6. Multiplication Table
 
+# while first < 11:
+#     while second < 11:
+#         answer = first * second
+#         print(first, "X", second, "=", answer)
+#         second+=1
+#     second = 1
+#     first+=1
+    
+# with f'string
+
 # first = 1
 # second = 1
 
 # while first < 11:
 #     while second < 11:
 #         answer = first * second
-#         print(first, "X", second, "=", answer)
+#         print(f'{first} X {second} = {answer}')
 #         second+=1
 #     second = 1
 #     first+=1
